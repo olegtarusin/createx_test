@@ -1,0 +1,176 @@
+{
+    "benefit": [
+        {
+            "id": "tutors",
+            "title": "Only practicing tutors",
+            "text": "Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.",
+            "image": "img/benefit/ben01.svg"
+        },
+        {
+            "id": "suport",
+            "title": "Always in touch, ready to support",
+            "text": "Faucibus erat massa elementum nec fermentum augue. Ante pellentesque dis et malesuada mauris, faucibus est et a. Gravida malesuada ut varius eu pretium vitae eu. Volutpat nullam posuere eget felis at dui neque. Neque vitae, pulvinar donec integer lacus, fermentum, faucibus. Lorem porttitor hendrerit vel interdum arcu arcu mollis massa. Velit nulla felis ornare elit a platea malesuada.",
+            "image": "img/benefit/ben02.svg"
+        },
+        {
+            "id": "library",
+            "title": "The most carefully selected materials",
+            "text": "Senectus magnis diam tellus nibh elit ac ac. Elit eget faucibus urna, feugiat arcu mattis viverra tempor id. Vivamus nunc quam donec non amet nulla etiam ullamcorper posuere. Venenatis commodo molestie eleifend nulla faucibus in. In sed felis adipiscing pharetra, etiam. Molestie euismod consectetur eu sed. Sit magnis sed sed ipsum vulputate pellentesque nullam faucibus.",
+            "image": "img/benefit/ben03.svg"
+        },
+        {
+            "id": "comun",
+            "title": "Student communication",
+            "text": "Eu placerat magna elementum nulla egestas id. Non sit enim tortor massa id tristique vel tincidunt sit. Tellus, ridiculus dictum purus nibh sed bibendum. In eleifend ac convallis convallis lectus. Urna semper ac non eros, donec accumsan egestas ipsum. Arcu at morbi.",
+            "image": "img/benefit/ben04.svg"
+        }
+    ],
+    "courses": [
+        {
+            "group": "Marketing",
+            "image": "img/fullbord/cours01.jpg",
+            "title": "The Ultimate Google Ads Training Course",
+            "price": "$100",
+            "name": "by Jerome Bell",
+            "mod": "group--green"
+        },
+        {
+            "group": "Management",
+            "image": "img/fullbord/cours02.jpg",
+            "title": "Prduct Management Fundamentals",
+            "price": "$480",
+            "name": "by Marvin McKinney",
+            "mod": "group--blue"
+        },
+        {
+            "group": "HR & Recruting",
+            "image": "img/fullbord/cours03.jpg",
+            "title": "HR  Management and Analytics",
+            "price": "$200",
+            "name": "by Leslie Alexander Li",
+            "mod": "group--orange"
+        },
+        {
+            "group": "Marketing",
+            "image": "img/fullbord/cours04.jpg",
+            "title": "Brand Management & PR Communications",
+            "price": "$530",
+            "name": "by Kristin Watson",
+            "mod": "group--green"
+        },
+        {
+            "group": "Design",
+            "image": "img/fullbord/cours05.jpg",
+            "title": "Graphic Design Basic",
+            "price": "$500",
+            "name": "by Guy Hawkins",
+            "mod": "group--pink"
+        },
+        {
+            "group": "Management",
+            "image": "img/fullbord/cours06.jpg",
+            "title": "Business Development Management",
+            "price": "$400",
+            "name": "by Dianne Russell",
+            "mod": "group--blue"
+        },
+        {
+            "group": "Development",
+            "image": "img/fullbord/cours07.jpg",
+            "title": "Highload Software Architecture",
+            "price": "$600",
+            "name": "by Brooklyn Simmons",
+            "mod": "group--purple"
+        },
+        {
+            "group": "HR & Recruting",
+            "image": "img/fullbord/cours08.jpg",
+            "title": "Human Resources – Selection and Recruitment",
+            "price": "$150",
+            "name": "by Kathryn Murphy",
+            "mod": "group--orange"
+        },
+        {
+            "group": "Design",
+            "image": "img/fullbord/cours09.jpg",
+            "title": "User Experience. Human-centered Design",
+            "price": "$240",
+            "name": "by Cody Fisher",
+            "mod": "group--pink"
+        }
+    ],
+    "events": [
+        {
+            "date": "05",
+            "month": "August",
+            "numberdate": "240805",
+            "time": "11:00 – 14:00",
+            "title": "Formation of the organizational structure of the company in the face of uncertainty.",
+            "group": "Onine master-class"
+        },
+        {
+            "date": "24",
+            "month": "July",
+            "numberdate": "240724",
+            "time": "11:00 – 12:30",
+            "title": "Building a customer service department. Best Practices.",
+            "group": "Onine lecture"
+        },
+        {
+            "date": "16",
+            "month": "July",
+            "numberdate": "240716",
+            "time": "10:00 – 13:00",
+            "title": "How to apply methods of speculative design in practice. Worldbuilding prototyping.",
+            "group": "Onine workshop"
+        },
+        {
+            "date": "10",
+            "month": "July",
+            "numberdate": "240710",
+            "time": "9:00 – 14:00",
+            "title": "Find and evaluate: search and assessment tools for candidates.",
+            "group": "Onine workshop"
+        },
+        {
+            "date": "27",
+            "month": "June",
+            "numberdate": "240627",
+            "time": "15:00 – 19:00",
+            "title": "Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI.",
+            "group": "Onine master-class"
+        },
+        {
+            "date": "15",
+            "month": "June",
+            "numberdate": "240615",
+            "time": "10:00 – 12:00",
+            "title": "Marketing or growth hacking: main differences and what business needs.",
+            "group": "Onine lecture"
+        },
+        {
+            "date": "02",
+            "month": "June",
+            "numberdate": "240602",
+            "time": "11:00 – 13:00",
+            "title": "How to brief a client and present your design to approve it from the first show.",
+            "group": "Onine lecture"
+        },
+        {
+            "date": "29",
+            "month": "May",
+            "numberdate": "240529",
+            "time": "11:00 – 12:00",
+            "title": "Who is a project manager and do I want to be PM?",
+            "group": "Onine lecture"
+        },
+        {
+            "date": "18",
+            "month": "May",
+            "numberdate": "240518",
+            "time": "10:00 – 12:00",
+            "title": "The company's business page as an additional tool to support the announcement of vacancies.",
+            "group": "Onine lecture"
+        }
+    ]
+}

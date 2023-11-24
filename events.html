@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Events</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231124205621">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<div class="menu__logo">
+						<img src="img/headerlogo.svg" alt="logo">
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="aboutus.html" class="menu__link">About Us</a></li>
+							<li class="menu__item"><a href="courses.html" class="menu__link">Courses</a></li>
+							<li class="menu__item"><a href="events.html" class="menu__link">Events</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Blog</a></li>
+							<li class="menu__item"><a href="contacts.html" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+					<div class="menu__action">
+						<a href="" class="menu__button button"><span>Get consultation</span></a>
+						<a href="" class="menu__login icon--person"><span>Log in / Register</span></a>
+						<button type="button" class="menu__burger icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page" id="top">
+			<div class="events">
+				<div class="events__container">
+					<div class="events__titlebox titlebox">
+						<h3 class="titlebox__subtitle">Our events</h3>
+						<h2 class="titlebox__title">Lectures, workshops & master-classes</h2>
+					</div>
+					<div class="events__filterline">
+						<div class="events__selectbox">
+							<div class="events__filter-wrapper filter">
+								<label for="evcat" class="filter__label">Event category</label>
+								<select name="themesgroup" data-class-modif="form" id="evcat" class="filter__select">
+									<option value="1" selected>all themes</option>
+								</select>
+							</div>
+							<div class="events__filter-wrapper filter">
+								<label for="evsort" class="filter__label">Sort by</label>
+								<select name="sorttype" data-class-modif="form" id="evsort" class="filter__select">
+									<option value="1" selected>newest</option>
+									<option value="2">date</option>
+								</select>
+							</div>
+							<div class="events__filter-wrapper filter filter--number" data-da=".events__formbox,768">
+								<label for="evshow" class="filter__label">Show</label>
+								<select name="eventsshow" data-class-modif="form" id="evshow" class="filter__select">
+									<option value="1" selected>9</option>
+									<option value="2">6</option>
+									<option value="3">2</option>
+								</select>
+								<span class="filter__subtext">events per page</span>
+							</div>
+						</div>
+						<div class="events__formbox">
+							<form action="#" class="events__form" method="post" enctype="multipart/form-data">
+								<input type="text" name="evsearch" id="" class="events__input" placeholder="Search event...">
+								<button type="submit" class="events__search-button icon--search"></button>
+							</form>
+							<div class="events__wrapper-view">
+								<button type="button" class="events__view icon--list picked" id="getlist"></button>
+								<button type="button" class="events__view icon--grid" id="getgrid"></button>
+							</div>
+						</div>
+					</div>
+					<ul class="events__list">
+					</ul>
+					<ul class="events__pagging hide">
+					</ul>
+				</div>
+			</div>
+			<div class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__titlebox titlebox">
+						<h3 class="titlebox__subtitle">Don't miss anything</h3>
+						<h2 class="titlebox__title">Subscribe to the Createx School announcements</h2>
+					</div>
+					<form action="#" method="post" enctype="multipart/form-data" class="subscribe__form">
+						<div class="subscribe__box-input">
+							<input type="text" class="subscribe__input" name="recipient" placeholder="Your working email" required>
+						</div>
+						<button type="submit" class="subscribe__button button"><span>Subscribe</span></button>
+					</form>
+				</div>
+				<div class="subscribe__decor">
+					<div class="subscribe__decoritem dec--i1"><img src="img/subscribe/illustration.svg" alt="decor"></div>
+					<div class="subscribe__decoritem dec--i2"><img src="img/subscribe/illustration.svg" alt="decor"></div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__textblock">
+						<div class="footer__logo">
+							<img src="img/footerlogo.svg" alt="logo">
+						</div>
+						<p class="footer__text">Createx Online School is a leader in online studying. We have lots of courses
+							and programs from the main market experts. We provide relevant approaches to online learning,
+							internships and employment in the largest companies in the country. </p>
+						<ul class="footer__linkline linkline">
+							<li class="linkline__item"><a href="" class="icon--facebook"></a></li>
+							<li class="linkline__item"><a href="" class="icon--twitter"></a></li>
+							<li class="linkline__item"><a href="" class="icon--youtube"></a></li>
+							<li class="linkline__item"><a href="" class="icon--telegram"></a></li>
+							<li class="linkline__item"><a href="" class="icon--instagram"></a></li>
+							<li class="linkline__item"><a href="" class="icon--linked"></a></li>
+						</ul>
+					</div>
+					<div class="footer__line-spollers" data-da=".footer__container,992">
+						<div data-spollers="768" class="footer__spollers spollers">
+							<details class="spollers__item">
+								<summary class="spollers__title icon--right">SITE MAP</summary>
+								<nav class="spollers__body bottom-nav">
+									<ul class="bottom-nav__list">
+										<li class="bottom-nav__item"><a href="aboutus.html">About Us</a></li>
+										<li class="bottom-nav__item"><a href="courses.html">Courses</a></li>
+										<li class="bottom-nav__item"><a href="events.html">Events</a></li>
+										<li class="bottom-nav__item"><a href="">Blog</a></li>
+										<li class="bottom-nav__item"><a href="contacts.html">Contacts</a></li>
+									</ul>
+								</nav>
+							</details>
+						</div>
+						<div data-spollers="768" class="footer__spollers spollers">
+							<details class="spollers__item">
+								<summary class="spollers__title icon--right">COURSES</summary>
+								<nav class="spollers__body bottom-nav">
+									<ul class="bottom-nav__list">
+										<li class="bottom-nav__item"><a href="courses.html">Marketing</a></li>
+										<li class="bottom-nav__item"><a href="courses.html">Management</a></li>
+										<li class="bottom-nav__item"><a href="courses.html">HR & Recruting</a></li>
+										<li class="bottom-nav__item"><a href="courses.html">Design</a></li>
+										<li class="bottom-nav__item"><a href="courses.html">Development</a></li>
+									</ul>
+								</nav>
+							</details>
+						</div>
+						<div data-spollers="768" class="footer__spollers spollers">
+							<details class="spollers__item">
+								<summary class="spollers__title icon--right">CONTACT US</summary>
+								<nav class="spollers__body bottom-nav">
+									<ul class="bottom-nav__list">
+										<li class="bottom-nav__item"><a href="tel:(405)5550128" class="icon--phone item--mark">(405)
+												555-0128</a></li>
+										<li class="bottom-nav__item "><a href="mailto:hello@example.com" class="icon--mail item--mark">hello@createx.com</a></li>
+									</ul>
+								</nav>
+							</details>
+						</div>
+					</div>
+					<form action="#" class="footer__form footerform" enctype="multipart/form-data" method="post">
+						<label for="footerinput" class="footerform__title">SIGN UP TO OUR NEWSLETTER</label>
+						<div class="footerform__subbox">
+							<input type="text" placeholder="Email address" id="footerinput" name="mail" class="footerform__input" autocomplete="off">
+							<button type="submit" class="footerform__button icon--right"></button>
+						</div>
+						<p class="footerform__text">*Subscribe to our newsletter to receive communications and early updates
+							from Createx SEO Agency.</p>
+					</form>
+				</div>
+			</div>
+			<div class="footer__bottom bottom">
+				<div class="bottom__container">
+					<p class="bottom__text"><span>&#169; All rights reserved.</span><span>Made with <span class="icon--heart"></span>by Createx Studio</span></p>
+					<a href="#top" class="bottom__link"><span>GO TO TOP</span></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231124205621"></script>
+</body>
+
+</html>
